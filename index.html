@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Satya Jyothoshalayam | Vedic Astrology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-maroon: #800000;
+            --gold: #D4AF37;
+            --saffron: #FF9933;
+            --parchment: #FFFDF5;
+            --border-style: 8px double var(--gold);
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--parchment);
+            color: #2c2c2c;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Subtle paper texture */
+        }
+
+        /* Traditional Header */
+        header {
+            background-color: var(--deep-maroon);
+            color: var(--gold);
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 5px solid var(--gold);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: var(--saffron);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 40px;
+            padding: 20px;
+        }
+
+        /* Astrologer Section */
+        .profile-card {
+            background: white;
+            border: var(--border-style);
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .profile-card h2 {
+            color: var(--deep-maroon);
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            width: 100px;
+            height: 3px;
+            background: var(--saffron);
+            margin: 20px auto;
+        }
+
+        .bio {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Jathakam Calculator Section */
+        .calculator-section {
+            background: #fff;
+            border: 2px solid var(--gold);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .calculator-section h3 {
+            color: var(--deep-maroon);
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        /* Responsive Iframe for the Chart */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 800px; /* Adjust based on widget height */
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: var(--deep-maroon);
+            color: var(--gold);
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+        }
+
+        /* Symbol Decorations */
+        .om-symbol {
+            font-size: 40px;
+            color: var(--saffron);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="om-symbol">ॐ</div>
+    <h1>Sri Satya Jyothoshalayam</h1>
+    <p>Authentic Vedic Wisdom & Divine Guidance</p>
+</header>
+
+<div class="container">
+    <section class="profile-card">
+        <h2>Sri Rallabandi Venkateswara Sharma</h2>
+        <div class="divider"></div>
+        <p class="bio">
+            <strong>Sri Rallabandi Venkateswara Sharma</strong> is a distinguished scholar and a well-experienced 
+            Vedic Astrologer with deep expertise in <i>Prasna Shastra</i> and <i>Jathakam</i>. 
+            With decades of spiritual practice, he has helped thousands align their lives with planetary energies. 
+            He is renowned for his precise predictions and practical Vedic remedies that bring peace, 
+            prosperity, and clarity to seekers worldwide.
+        </p>
+    </section>
+
+    <section class="calculator-section">
+        <h3>Generate Your Janma Kundali (Jathakam)</h3>
+        <p>Please enter your exact birth details below to receive your personalized birth chart.</p>
+        
+        <div class="iframe-container">
+            <iframe src="https://www.prokerala.com/astrology/kundli/?embed=true"></iframe>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Sri Satya Jyothoshalayam. All Rights Reserved.</p>
+    <p>Guided by Sri Rallabandi Venkateswara Sharma | Vedic Astrology & Vastu Services</p>
+</footer>
+
+</body>
+</html>
